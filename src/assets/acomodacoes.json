@@ -1,0 +1,10 @@
+[
+  {
+    "id": 1,
+    "tipo": "CASA",
+    "capacidade": 13,
+    "localizacao": "New york",
+    "permiteanimais": true,
+    "temestacionamento": true
+  }
+]

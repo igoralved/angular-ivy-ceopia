@@ -1,0 +1,11 @@
+<h3>Menu de Filtro</h3>
+
+<form [formGroup]="checkoutForm" (ngSubmit)="onSubmit()">
+  <div>
+    <label for="local"> Localizacao </label>
+    <input id="local" type="text" name="local" #local />
+  </div>
+  <button class="button" (click)="search(local.value)">Search</button>
+</form>
+
+<h3></h3>
